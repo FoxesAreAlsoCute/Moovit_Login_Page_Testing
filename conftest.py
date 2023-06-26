@@ -3,9 +3,9 @@ import pytest
 
 @pytest.fixture(scope="function")
 def browser():
-    print("\nOpen chrome browser...")
+    print("\n\nOpen chrome browser...")
     browser = webdriver.Chrome()
     browser.implicitly_wait(10)
     yield browser
-    print("\nQuit browser...")
+    print("\n\nQuit browser...\n\n")
     browser.quit()
