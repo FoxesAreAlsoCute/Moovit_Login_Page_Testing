@@ -1,2 +1,10 @@
 # Moovit_Login_Page_Testing
-Just simple testsuit for testing a login page functionality using selenium and pytest
+
+A basic test suite for login page functionality testing using Selenium and Pytest.
+
+## Features:
+- Selenium
+- Pytest
+- Page Object Pattern
+
+---
